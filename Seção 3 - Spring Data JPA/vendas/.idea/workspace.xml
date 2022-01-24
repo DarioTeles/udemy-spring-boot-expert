@@ -1,34 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54d8e79c-1909-4d22-bc0c-deefdd90d55e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Seção 2 - Spring Boot Core e Spring Framework/vendas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Seção 2 - Spring Boot Core e Spring Framework/vendas/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../vendas/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../vendas/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../vendas/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../vendas/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../vendas/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../vendas/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../vendas/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../vendas/src/main/java/io/github/darioteles/MyConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../vendas/src/main/java/io/github/darioteles/VendasApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../vendas/src/main/java/io/github/darioteles/model/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../vendas/src/main/java/io/github/darioteles/repository/ClientsRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../vendas/src/main/java/io/github/darioteles/service/ClientsService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../vendas/src/main/resources/application-development.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../vendas/src/main/resources/application-production.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../vendas/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../vendas/target/classes/META-INF/vendas.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../vendas/target/classes/application-development.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../vendas/target/classes/application-production.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../vendas/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../vendas/target/classes/io/github/darioteles/MyConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../vendas/target/classes/io/github/darioteles/VendasApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../vendas/target/classes/io/github/darioteles/model/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../vendas/target/classes/io/github/darioteles/repository/ClientsRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../vendas/target/classes/io/github/darioteles/service/ClientsService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../vendas/vendas.iml" beforeDir="false" />
-    </list>
+    <list default="true" id="54d8e79c-1909-4d22-bc0c-deefdd90d55e" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,6 +11,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -103,38 +77,58 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="401" y="172" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738@0.0.1366.738" timestamp="1642520669516" />
-    <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser" timestamp="1642643549001">
+    <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser" timestamp="1642875029819">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1642643549001" />
+    <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1642875029819" />
     <state x="413" y="116" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1642638536655">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="413" y="116" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1642638536655" />
-    <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1642719828756">
+    <state width="408" height="466" key="DebuggerActiveHint" timestamp="1642877954241">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1642719828756" />
-    <state width="1323" height="182" key="GridCell.Tab.0.center" timestamp="1642719828756">
+    <state width="408" height="466" key="DebuggerActiveHint/0.0.1366.738@0.0.1366.738" timestamp="1642877954241" />
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1643037816848">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1642719828756" />
-    <state width="1323" height="182" key="GridCell.Tab.0.left" timestamp="1642719828756">
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1643037816848" />
+    <state width="1323" height="182" key="GridCell.Tab.0.center" timestamp="1643037816848">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1642719828756" />
-    <state width="1323" height="182" key="GridCell.Tab.0.right" timestamp="1642719828756">
+    <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1643037816848" />
+    <state width="1323" height="182" key="GridCell.Tab.0.left" timestamp="1643037816848">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1642719828756" />
+    <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1643037816848" />
+    <state width="1323" height="182" key="GridCell.Tab.0.right" timestamp="1643037816848">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1643037816848" />
+    <state width="1323" height="227" key="GridCell.Tab.1.bottom" timestamp="1642878798659">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="227" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1642878798659" />
+    <state width="1323" height="227" key="GridCell.Tab.1.center" timestamp="1642878798659">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="227" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1642878798659" />
+    <state width="1323" height="227" key="GridCell.Tab.1.left" timestamp="1642878798659">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="227" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1642878798659" />
+    <state width="1323" height="227" key="GridCell.Tab.1.right" timestamp="1642878798659">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="227" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1642878798659" />
     <state x="184" y="11" key="SettingsEditor" timestamp="1642638008585">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="184" y="11" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1642638008585" />
-    <state x="295" y="178" key="com.intellij.ide.util.TipDialog" timestamp="1642702057729">
+    <state x="295" y="178" key="com.intellij.ide.util.TipDialog" timestamp="1643035313907">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="295" y="178" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1642702057729" />
+    <state x="295" y="178" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1643035313907" />
     <state x="413" y="124" key="extract.method.dialog" timestamp="1642646130833">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

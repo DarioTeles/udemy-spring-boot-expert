@@ -1,6 +1,7 @@
 package io.github.darioteles.domain.entity;
 
 import javax.persistence.*;
+import java.util.Set;
 
 /**
  * Define um cliente.
@@ -17,10 +18,14 @@ public class Cliente {
     @Column(length = 100)
     private String nome;
 
+    @OneToMany(mappedBy = "cliente", fetch = FetchType.LAZY)
+    private Set<Pedido> pedidos;
+
     /**
      * Constrói um cliente sem parêmtros
      */
     public Cliente() {
+
     }
 
     /**
@@ -71,6 +76,14 @@ public class Cliente {
      */
     public void setNome(String nome) {
         this.nome = nome;
+    }
+
+    public Set<Pedido> getPedidos() {
+        return pedidos;
+    }
+
+    public void setPedidos(Set<Pedido> pedidos) {
+        this.pedidos = pedidos;
     }
 
     /**
