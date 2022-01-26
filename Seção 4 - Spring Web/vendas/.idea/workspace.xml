@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="54d8e79c-1909-4d22-bc0c-deefdd90d55e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Seção 3 - Spring Data JPA/vendas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Seção 3 - Spring Data JPA/vendas/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="23sBvC9n6CzaYp9vSf49Wv3TSQZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunManager">
+    <configuration name="VendasApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.github.darioteles.VendasApplication" />
+      <module name="vendas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.darioteles.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.VendasApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="54d8e79c-1909-4d22-bc0c-deefdd90d55e" name="Default Changelist" comment="" />
+      <created>1642513143349</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1642513143349</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="401" y="172" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1642520669516">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="401" y="172" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738@0.0.1366.738" timestamp="1642520669516" />
+    <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser" timestamp="1643163420360">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1643163420360" />
+    <state x="413" y="116" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1642638536655">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="413" y="116" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1642638536655" />
+    <state width="408" height="466" key="DebuggerActiveHint" timestamp="1642877954241">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="408" height="466" key="DebuggerActiveHint/0.0.1366.738@0.0.1366.738" timestamp="1642877954241" />
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1643164694338">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1643164694338" />
+    <state width="1323" height="182" key="GridCell.Tab.0.center" timestamp="1643164694338">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1643164694338" />
+    <state width="1323" height="182" key="GridCell.Tab.0.left" timestamp="1643164694337">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1643164694337" />
+    <state width="1323" height="182" key="GridCell.Tab.0.right" timestamp="1643164694338">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1643164694338" />
+    <state width="1323" height="227" key="GridCell.Tab.1.bottom" timestamp="1642878798659">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="227" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1642878798659" />
+    <state width="1323" height="227" key="GridCell.Tab.1.center" timestamp="1642878798659">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="227" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1642878798659" />
+    <state width="1323" height="227" key="GridCell.Tab.1.left" timestamp="1642878798659">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="227" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1642878798659" />
+    <state width="1323" height="227" key="GridCell.Tab.1.right" timestamp="1642878798659">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="227" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1642878798659" />
+    <state x="184" y="11" key="SettingsEditor" timestamp="1643071030253">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="184" y="11" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1643071030253" />
+    <state x="295" y="178" key="com.intellij.ide.util.TipDialog" timestamp="1643159137672">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="295" y="178" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1643159137672" />
+    <state x="413" y="124" key="extract.method.dialog" timestamp="1642646130833">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="413" y="124" key="extract.method.dialog/0.0.1366.738@0.0.1366.738" timestamp="1642646130833" />
+  </component>
+</project>
