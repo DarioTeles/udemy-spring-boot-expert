@@ -1,10 +1,17 @@
 package io.github.darioteles.domain.entity;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
 import javax.persistence.*;
 
 /**
  * Define item de um pedido.
  */
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
 @Entity
 @Table
 public class ItemPedido {
@@ -24,67 +31,4 @@ public class ItemPedido {
     @Column
     private Integer quantidade;
 
-    /**
-     * Retorna o id do item de pedido.
-     * @return id
-     */
-    public Integer getId() {
-        return id;
-    }
-
-    /**
-     * Atualiza o item de pedido.
-     * @param id
-     */
-    public void setId(Integer id) {
-        this.id = id;
-    }
-
-    /**
-     * Retorna o pedido correspondente ao item.
-     * @return pedido
-     */
-    public Pedido getPedido() {
-        return pedido;
-    }
-
-    /**
-     * Atualiza o pedido correspondente ao item.
-     * @param pedido
-     */
-    public void setPedido(Pedido pedido) {
-        this.pedido = pedido;
-    }
-
-    /**
-     * Retorna o produto correspondente ao item.
-     * @return produto
-     */
-    public Produto getProduto() {
-        return produto;
-    }
-
-    /**
-     * Atualiza o produto correspondente ao item.
-     * @param produto
-     */
-    public void setProduto(Produto produto) {
-        this.produto = produto;
-    }
-
-    /**
-     * Retorna a quantidade do produto correspondente ao item.
-     * @return quantidade
-     */
-    public Integer getQuantidade() {
-        return quantidade;
-    }
-
-    /**
-     * Atualiza a quantidade do produto correspondente ao item.
-     * @param quantidade
-     */
-    public void setQuantidade(Integer quantidade) {
-        this.quantidade = quantidade;
-    }
 }

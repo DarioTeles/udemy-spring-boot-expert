@@ -1,6 +1,9 @@
 package io.github.darioteles.domain.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import java.util.Set;
@@ -8,6 +11,9 @@ import java.util.Set;
 /**
  * Define um cliente.
  */
+@Data //Anotação Lombok que determina os @Getter, @Setter, @RequiredArgsConstructor e @ToString.
+@NoArgsConstructor
+@AllArgsConstructor
 @Entity
 @Table
 public class Cliente {
@@ -28,14 +34,7 @@ public class Cliente {
     private Set<Pedido> pedidos;
 
     /**
-     * Constrói um cliente sem parêmtros
-     */
-    public Cliente() {
-
-    }
-
-    /**
-     * Constrói um cliente.
+     * Constrói um cliente com somente parâmetros de id e nome.
      * @param id
      * @param nome
      */
@@ -44,87 +43,4 @@ public class Cliente {
         this.nome = nome;
     }
 
-    /**
-     * Constrói um cliente.
-     * @param nome
-     */
-    public Cliente(String nome) {
-        this.nome = nome;
-    }
-
-    /**
-     * Retorna o Id do cliente.
-     * @return id
-     */
-    public Integer getId() {
-        return id;
-    }
-
-    /**
-     * Atualiza o id do cliente.
-     * @param id
-     */
-    public void setId(Integer id) {
-        this.id = id;
-    }
-
-    /**
-     * Retorna o nome do cliente.
-     * @return nome
-     */
-    public String getNome() {
-        return nome;
-    }
-
-    /**
-     * Atualiza o nome do cliente.
-     * @param nome
-     */
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
-    /**
-     * Retorna o CPF do cliente.
-     * @return cpf
-     */
-    public String getCpf() {
-        return cpf;
-    }
-
-    /**
-     * Atualiza o CPF docliente.
-     * @param cpf
-     */
-    public void setCpf(String cpf) {
-        this.cpf = cpf;
-    }
-
-    /**
-     * Retorna a lista de pedidos do cliente.
-     * @return
-     */
-    public Set<Pedido> getPedidos() {
-        return pedidos;
-    }
-
-    /**
-     * Atualiza a lista de pedidos do cliente.
-     * @param pedidos
-     */
-    public void setPedidos(Set<Pedido> pedidos) {
-        this.pedidos = pedidos;
-    }
-
-    /**
-     * Retorna informações do cliente.
-     * @return
-     */
-    @Override
-    public String toString() {
-        return "Cliente{" +
-                "id=" + id +
-                ", nome='" + nome + '\'' +
-                '}';
-    }
 }

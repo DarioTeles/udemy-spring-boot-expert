@@ -1,0 +1,64 @@
+Requisições - ClienteController
+
+POST - http://localhost:8080/api/clientes/
+{
+    "nome" : "João Souza",
+    "cpf" : "11111111111"
+}
+
+GET - http://localhost:8080/api/clientes/1
+
+DELETE - http://localhost:8080/api/clientes/1
+
+PUT - http://localhost:8080/api/clientes/1
+{
+    "nome" : "João Souza Atualizado",
+    "cpf" : "22222222222"
+}
+
+GET - http://localhost:8080/api/clientes/
+
+---------------------------------------------------------------------------------------------------
+
+Requisições - ProdutoController
+
+POST - http://localhost:8080/api/produtos/
+{
+	"descricao" : "Impressora", 
+	"preco" : "100.00"
+}
+
+GET - http://localhost:8080/api/produtos/1
+
+DELETE - http://localhost:8080/api/produtos/1
+
+PUT - http://localhost:8080/api/produtos/1
+{
+	"descricao" : "Roupa",
+    "preco" : "100.00"
+}
+
+GET - http://localhost:8080/api/produtos/
+
+---------------------------------------------------------------------------------------------------
+
+Requisições PedidoController
+
+POST - http://localhost:8080/api/pedidos
+{
+    "cliente" : 1,
+    "total" : 1000,
+    "items" : [
+        {
+            "produto" : 2,
+            "quantidade" : 10
+        }
+    ] 
+}
+
+GET - http://localhost:8080/api/pedidos/3
+
+PATCH - http://localhost:8080/api/pedidos/3
+{
+    "novoStatus" : "CANCELADO"
+}

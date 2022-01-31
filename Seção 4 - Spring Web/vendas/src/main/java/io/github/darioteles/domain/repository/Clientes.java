@@ -17,7 +17,7 @@ public interface Clientes extends JpaRepository<Cliente, Integer> {
 
     //@Query utilizando HQL - Hibernate Query Language
     @Query(value = "SELECT c FROM Cliente c WHERE c.nome LIKE :nome")
-    List<Cliente> encontrarPorNome(@Param("nome") String nome);
+    List<Cliente> findClienteByName(@Param("nome") String nome);
 
     boolean existsByNome(String nome);
 
