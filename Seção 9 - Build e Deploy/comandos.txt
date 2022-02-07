@@ -1,0 +1,3 @@
+mvn clean package -P <perfil>
+java -jar <arquivo jar>
+
