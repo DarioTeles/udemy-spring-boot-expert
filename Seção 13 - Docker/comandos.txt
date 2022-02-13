@@ -1,0 +1,11 @@
+Cria projeto.
+Gerao jar.
+Testa o jar.
+Cria o arquivo Dockerfile.
+
+No docker:
+docker build -t darioteles/springdocker .
+docker images
+docker run -name springdockercontainer -p 8081:8080 darioteles/springdocker
+
+
